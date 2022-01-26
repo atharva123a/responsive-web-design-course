@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Favorite Waifu Survey Form</h1>
+      <p id="description">
+        Help us figure out the most famous waifu of all time!
+      </p>
+      <form action="" id="survey-form">
+        <label for="name" id="name-label" name="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          required
+          placeholder="Enter your name"
+        /><br />
+        <label id="email-label" for="email" name="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Enter your email"
+        /><br />
+        <label id="number-label" for="age" name="age">Age(optional)</label
+        ><br />
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter age"
+          min="18"
+          max="100"
+        />
+        <br />
+        <p>How often do you watch anime?</p>
+        <input type="radio" value="feature" id="daily" name="features" />
+        <label for="daily">Daily</label><br />
+        <input type="radio" value="feature" id="weekly" name="features" />
+        <label for="weekly">Weekly</label><br />
+        <input type="radio" value="feature" id="monthly" name="features" />
+        <label for="monthly">Monthly</label><br />
+        <p>What do you look for in your waifu?</p>
+        <label for="features">Select a feature</label><br />
+        <select name="features" id="dropdown">
+          <option value="smile">Smile</option>
+          <option value="kawai">Kawai Index</option>
+          <option value="attitude">Attitude</option>
+          <option value="onne-chan">Onne-Chan!!</option>
+        </select>
+        <br />
+        <input
+          class="checkbox"
+          type="checkbox"
+          name="characters"
+          value="daki"
+        />
+        <label for="characters">Daki</label><br />
+        <input type="checkbox" name="characters" value="nezuko" />
+        <label for="characters">Nezuko</label><br />
+        <input type="checkbox" name="characters" value="mikasa" />
+        <label for="characters">Mikasa</label><br />
+        <input type="checkbox" name="characters" value="historia" />
+        <label for="characters">Historia</label><br />
+        <input type="checkbox" name="characters" value="peick" />
+        <label for="characters">Peick</label><br />
+        <p id="suggestions">
+          Any comments or suggestions? Please feel free to let us know:
+        </p>
+        <textarea
+          name="textarea"
+          id="textarea"
+          placeholder="Enter your comments here"
+        ></textarea
+        ><br />
+        <button type="submit" id="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
