@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/css"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js"></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="logo"
+        />
+        <nav id="nav-bar">
+          <ul id="nav-links">
+            <li>
+              <a href="#container" class="nav-link">Features</a>
+            </li>
+            <li><a class="nav-link" href="#working">How it works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div id="signup">
+      <h1 id="title">Baraat at your doorstep!</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br />
+        <button id="submit" type="submit" class="btn btn-warning">
+          Get Started
+        </button>
+      </form>
+    </div>
+    <div id="container">
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="content">
+          <h4 class="heading">Reliable Service</h4>
+          <p class="text">
+            You can sit back and enjoy the dowry that you recieved without
+            having to worry about the songs stopping ever
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="content">
+          <h4 class="heading">Better Sound</h4>
+          <p class="text">
+            We have speakers that can fill up entire trucks. We will lend you
+            that truck after our service, so you can pack all dowry gifts
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fa fa-3x fa-tint"></i></div>
+        <div class="content">
+          <h4 class="heading">Nani Sore</h4>
+          <p class="text">omai mo shindreu</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="working">
+      <iframe
+        id="video"
+        class="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="working">
+        <p id="working-heading">
+          This is a sample from our Amrican wedding, where an Indian girl and
+          romanian boy got married
+        </p>
+      </div>
+    </div>
+    <div id="pricing">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3 class="plan-name">Basic Plan</h3>
+          <h3 class="plan-cost">$690</h3>
+          <ul class="plan-description">
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+          </ul>
+          <button type="button" class="btn btn-warning">Select</button>
+        </div>
+        <div class="grid-item">
+          <h3 class="plan-name">Intermediate Plan</h3>
+          <h3 class="plan-cost">$690</h3>
+          <ul class="plan-description">
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+          </ul>
+          <button type="button" class="btn btn-warning">Select</button>
+        </div>
+        <div class="grid-item">
+          <h3 class="plan-name">Advanced Plan</h3>
+          <h3 class="plan-cost">$690</h3>
+          <ul class="plan-description">
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+            <li>Benefits here</li>
+          </ul>
+          <button type="button" class="btn btn-warning">Select</button>
+        </div>
+    </div>
+    <footer id="footer">
+      <ul id="footer-list">
+        <li><a target="_blank" href="https://www.apple.com/in/privacy/">Privacy</a></li>
+        <li><a target="_blank" href="https://www.apple.com/legal/internet-services/itunes/">Terms</a></li>
+        <li><a target="_blank" href="https://support.apple.com/en-in/contact">Contact</a></li>
+      </ul>
+      <div id="copyright">
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </footer>
+  </body>
+</html>
