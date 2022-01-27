@@ -1,1 +1,1 @@
-[CodePen Link for Survery Form](https://codepen.io/atharva123a/pen/QWOWYYW)
+[CodePen Link for Survery Form](https://codepen.io/atharva123a/full/QWOWYYW)
