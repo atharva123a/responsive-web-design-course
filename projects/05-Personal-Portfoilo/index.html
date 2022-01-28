@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body id="body">
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#main-section">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <h1>Hello, I am Atharva</h1>
+      <h3>a fullstack web developer</h3>
+    </section>
+    <main id="main-section">
+      <h1>These are some of my projects</h1>
+      <div id="line"></div>
+      <section id="projects">
+        <div class="project-tile">
+          <a
+            target="_blank"
+            href="https://github.com/atharva123a/node-express-projects/tree/master/node-express-course-main/03-task-manager/task-manager-api"
+          >
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643375510/personal%20portoflio/Task_Manager_API_aystew.png"
+              alt="Task Manager API"
+            />
+            <p>Task Manager API</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a
+            target="_blank"
+            href="https://github.com/atharva123a/node-express-projects/tree/master/node-express-course-main/07-file-upload/starter"
+          >
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643375503/personal%20portoflio/File_Upload_gcnc5d.png"
+              alt="File Upload API"
+            />
+            <p>File Upload API</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a
+            target="_blank"
+            href="https://github.com/atharva123a/node-express-projects/tree/master/node-express-course-main/09-stripe-payment/starter"
+          >
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643375154/personal%20portoflio/Stripe_Payment_API_hbjmtq.png"
+              alt="Stripe Payment Intent"
+            />
+            <p>Stripe Payment Intent</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a target="_blank" href="https://desolate-beach-32612.herokuapp.com/">
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643381716/personal%20portoflio/Jobs-API_apul3g.png"
+              alt="Jobs API"
+            />
+            <p>Jobs API</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a
+            target="_blank"
+            href="https://github.com/atharva123a/node-express-projects/tree/master/node-express-course-main/05-JWT-Basics/starter"
+          >
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643375152/personal%20portoflio/JWT_TOKENS_acrnov.png"
+              alt="JWT Tokens"
+            />
+            <p>JWT Tokens</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a target="_blank" href="https://e-commerce-api-69.herokuapp.com/">
+            <img
+              src="https://res.cloudinary.com/dwyzbiqsd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1643381840/personal%20portoflio/E-Commerce-API_blcsd7.png"
+              alt="E-Commerce-API"
+            />
+            <p>E-Commerce API</p>
+          </a>
+        </div>
+      </section>
+
+      <a id="show-all" target="_blank" href="https://github.com/atharva123a">
+        <button type="button" class="btn btn-primary" value="submit">
+          Show All <i class="fas fa-chevron-right"></i>
+        </button>
+      </a>
+    </main>
+    <div id="contact">
+      <h1>Let's Connect!</h1>
+      <p>How do you take your misal?</p>
+      <div class="social-links">
+        <a
+          id="profile-link"
+          target="_blank"
+          class="link"
+          href="https://github.com/atharva123a"
+        >
+          <i class="fab fa-github"></i> Github
+        </a>
+        <a target="_blank" class="link" href="https://twitter.com/AtharvaSal">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+        <a
+          target="_blank"
+          class="link"
+          href="https://in.linkedin.com/in/atharva-salokhe-0aa345201"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+      <div id="end-line"></div>
+      <footer id="footer">
+        <p>Created by Atharva Salokhe</p>
+      </footer>
+    </div>
+  </body>
+</html>
